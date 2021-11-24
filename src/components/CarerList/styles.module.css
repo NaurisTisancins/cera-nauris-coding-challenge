@@ -1,0 +1,42 @@
+.main {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  padding: 20px 50px;
+}
+
+.carercard {
+  margin: 5px 5px;
+}
+
+.carercard img {
+  max-width: 500px;
+  max-height: 200px;
+  object-fit: fill;
+}
+
+.description {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.description p {
+  font-weight: 500;
+  font-size: 14px;
+}
+
+.description span {
+  color: purple;
+  font-size: 14px;
+}
+
+.description button {
+  background-color: purple;
+  padding: 8px 5px;
+  font-size: 12px;
+  font-weight: 500;
+  color: whitesmoke;
+  border-style: none;
+  border-radius: 5px;
+  cursor: pointer;
+}

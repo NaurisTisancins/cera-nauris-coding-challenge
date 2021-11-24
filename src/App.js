@@ -1,12 +1,12 @@
 
-import CarerList from './components/CarerList/CarerList';
+import Home from './views/Home/Home';
 import './App.css';
 
 function App() {
   
   return (
     <div className="App">
-      <CarerList />
+      <Home />
     </div>
   );
 }
